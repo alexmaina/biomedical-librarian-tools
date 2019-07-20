@@ -1,7 +1,7 @@
 <?php
 
 /***
-We are living in a time where biomedical research librarians and bioinformaticians are faced 
+We are living in times where biomedical research librarians and bioinformaticians are faced 
 with situations where their growing publication databases have duplicate records. This is increasingly
 becoming a recurring problem partly due to quickly evolving publishing models an example
 being the openacccess model.In our case at the Kemri-wellcome trust programme, we constantly encounter
