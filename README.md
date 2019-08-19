@@ -22,3 +22,6 @@ Dependencies: PHP 7,MySQL, ContentMine API
 
 
 Often times, librarians are faced with situations where they have to check whether papers authored by researchers in their institutions are in compliance with the funders policies. In our case at the KEMRI-Wellcome Trust Research Programme, we were faced with a situation whereby we were required to check if authors acknowledged the funder(The Wellcome Trust) in their publications. Considering that KEMRI-Wellcome Trust publishes approximately 200 articles per year, this task would require back-breaking work of downloading and reading over 600 articles.
+
+# How i solved problem 2
+
