@@ -1,0 +1,3 @@
+<compoundRegex title="2016-2019">
+	<regex weight="1.0" fields="Wellcome">(Wellcome Trust)</regex>
+</compoundRegex>
