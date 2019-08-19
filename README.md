@@ -10,7 +10,7 @@ Author: Alex Maina <alexmaina@afroscholar.info>
 
 Maintainer: Alex Maina
 
-Description: 
+# Description: 
 This repository contains various tools that can be useful to biomedical librarians working in research institutes and institutes of higher learning specifically in the field of biology and medicine.
 
 # Problem 1 - Duplicates
