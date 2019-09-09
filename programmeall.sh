@@ -54,12 +54,14 @@ pmids='25783862 25830326 25920355 26063746 26082391 26170395 26275071 26337840 2
 31194291 31200697 31205735 31223663 31234816 31234940 31240333 31256761 31260501 31280724 31285980 31286096
 31289754 31289756 31293898 31295277 31296922 31303524 31308378'
 
+#Loop through each PMID and download XML/JSON files for each and output in a directory named 'pall2016-2019'
 for pmid in $pmids
 		do
 		getpapers -q EXT_ID:$pmid -a -o pall2016-2019 -x
 		echo $pmid
 	done
-
+#run norma to transform fulltext HTML into scholarly HTML
 norma --project pall2016-2019/ -i fulltext.xml -o scholarly.html --transform nlm2html
 
+#run ami to get all articles that have attributed funding to the Wellcome Trust
 sudo ami2-regex --project pall2016-2019/ -i scholarly.html --r.regex pall2016-2019/REGEXFILE.xml --context 150 150
