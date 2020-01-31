@@ -8,7 +8,7 @@ Date: 2019-07-19
 
 Author: Alex Maina <alexmaina@afroscholar.info>
 
-Maintainer: Alex Maina
+Maintainer: Alex Maina - Librarian. Kenya Medical Research Institute-Kilifi
 
 # Description: 
 This repository contains various tools that can be useful to biomedical librarians working in research institutes and institutes of higher learning specifically in the field of biology and medicine.
