@@ -44,7 +44,7 @@ foreach($noncompliant as $pmcids){
 	$con = dbconnect();
 	$sql2 = $con->prepare("insert into complied(pmcids) values(:pmcids)");
 	$sql2->bindValue(':pmcids', $pmcids, PDO::PARAM_STR);
-	$sql2->execute();**/
+	$sql2->execute();
 
 }
 
